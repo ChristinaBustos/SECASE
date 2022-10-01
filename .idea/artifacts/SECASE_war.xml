@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SECASE:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SECASE</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SECASE-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="SECASE:war exploded" />
+    </root>
+  </artifact>
+</component>
